@@ -7,7 +7,8 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "yarn add && cd client && yarn add --only-dev && yarn add && npm run build"
   },
   "engines": {
     "node": "10.16.3",
