@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "yarn add && cd client && yarn add --only-dev && yarn add && npm run build"
+    "heroku-postbuild": "cd client && yarn && yarn build"
   },
   "engines": {
     "node": "10.16.3",
