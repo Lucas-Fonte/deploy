@@ -16,6 +16,6 @@ export default function List() {
   }, []);
 
   return (
-    <h1>List</h1>
+    <h1>List {name.hello}</h1>
   );
 }
