@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^7.12.1",
     "sequelize": "^5.21.1"
@@ -14,7 +15,10 @@
     "heroku-postbuild": "cd client && yarn && yarn build"
   },
   "engines": {
-    "node": "10.16.3",
-    "yarn": "1.19.0"
+    "node": "12.5.0",
+    "yarn": "1.19.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
   }
 }
